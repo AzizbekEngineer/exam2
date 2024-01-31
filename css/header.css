@@ -1,0 +1,86 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 0px;
+  z-index: 999;
+}
+
+.nav__container{
+  padding: 11px 0;
+}
+
+.show-shrink{
+padding: 15px 0;
+box-shadow: 0px 0px 10px gray;
+background: white;
+}
+
+.header__nav--logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header__nav--right,
+.header__nav--list,
+.header__nav--btns {
+  gap: 20px;
+}
+
+.header__nav--item {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 0px;
+  position: relative;
+}
+
+.header__nav--item:hover {
+  color: var(--colorBlack);
+  font-weight: 700;
+}
+
+
+.header__nav__hamburger--btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  display: none;
+}
+
+.header__nav__hamburger--btn span {
+  width: 20px;
+  height: 2px;
+  background: black;
+  border-radius: 2px;
+}
+
+.mode__btn {
+  border: none;
+  background: transparent;
+}
+
+@media (max-width: 730px) {
+  .header__nav--list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 15px skyblue;
+    transition: 0.4s;
+    z-index: 9999;
+  }
+  .header__nav__hamburger--btn {
+    display: flex;
+  }
+  .show-header__nav-list{
+    left: 0;
+  }
+}
+
