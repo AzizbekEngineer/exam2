@@ -1,4 +1,4 @@
-@import url(./fonts.css);
+/* @import url(./fonts.css);
 @import url(./reset.css);
 @import url(./variable.css);
 @import url(./header.css);
@@ -10,10 +10,10 @@
 @import url(./subscript.css);
 @import url(./contact.css);
 @import url(./register.css);
-@import url(./footer.css);
+@import url(./footer.css); */
 
 
-/* 
+
 @import url(fonts-min.css); 
 @import url(reset-min.css);
 @import url(variable-min.css);
@@ -26,4 +26,4 @@
 @import url(subscript-min.css);
 @import url(contact-min.css);
 @import url(register-min.css);
-@import url(footer-min.css); */
+@import url(footer-min.css);
